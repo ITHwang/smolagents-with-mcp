@@ -1,0 +1,13 @@
+llm_tasks:
+  chat:
+    config_id: chat_gpt4o
+    config_list:
+      chat_gpt4o:
+        model: "gpt-4o"
+        provider: openai
+        params:
+          max_completion_tokens: 4096
+          temperature: 0.0
+        prompt: |-
+          You are a helpful AI assistant.
+          Your task is to search for a place(restaurant, cafe, etc.) that matches the user's query.
